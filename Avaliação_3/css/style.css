@@ -42,4 +42,7 @@ footer {
     text-align: center;
   }
   
- 
+ .link:hover:after{
+     content: "§";
+     color: darkblue;
+ }
