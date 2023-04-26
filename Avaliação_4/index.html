@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+            align:left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Atividade Formulário</h1>
+<h2>
+    Preencha o formulário abaixo para participar do curso de HTML & CSS
+
+
+
+
+</h2>
+<fieldset>
+    <legend> Dados Pessoais</legend>
+
+<table>
+    <tr>
+        <td><label>Nome: </label></td>
+        <td><input type="text" name="nome" ></td>
+        <td><label>Sobrenome: </label></td>
+        <td><input type="text" sobrenome="nome"></label></td>
+    </tr>
+
+    <tr>
+        <td><label>Nascimento: <input type="date" name="nascimento" required></label></td>
+    </tr>
+
+    <tr>
+        <td><label>RG: <input type="text" name="rg" ></label></td>
+    </tr>
+    <tr>
+        <td><label>CPF: <input type="text" name="cpf" ></label></td>
+    </tr>
+
+</table>
+</fieldset>
+
+
+<fieldset>
+    <legend> Dados de Endereço</legend>
+<table>
+    <tr>
+        <td><label>Rua: <input type="text" name="rua" ></label></td>
+        <td><label>Número: <input type="text" sobrenome="numero" ></label></td>
+    </tr>
+
+    <tr>
+        <td><label>Bairro: <input type="text" name="bairro" ></label></td>
+    </tr>
+
+    <tr>
+        <td><label>Estado: <input type="text" name="estado" ></label></td>
+    </tr>
+    <tr>
+        <td><label>Cidade: <input type="text" name="cidade" ></label></td>
+    </tr>
+    <tr>
+        <td><label>CEP: <input type="text" name="cep" ></label></td>
+    </tr>
+
+</table>
+</fieldset>
+
+<fieldset>
+    <legend> Dados de login</legend>
+<table>
+    <tr>
+        <td>
+            <label>Email: <input type="email" name="email" required></label>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <label>Imagem de perfil: <input type="file" name="arquivo" required></label>
+        </td>
+    </tr>
+
+    <tr>
+        <td><label>Login de usuário: <input type="text" name="login" ></label></td>
+    </tr>
+    <tr>
+        <td>
+            <label>Senha: <input type="password" name="pass" required></label>
+            <label>Confirme a senha: <input type="password" name="pass" required></label>
+        </td>
+    </tr>
+
+</table>
+</fieldset>
+
+<table>
+    <form action="form.php" method="post"></form>
+        <td>
+            <p> <input type="submit" value=Enviar></p>
+        </td>
+        <td>
+            <p> <input type="reset" value=Limpar></p>
+        </td>
+    </form>
+</table>
+
+</body>
+</html>
+
